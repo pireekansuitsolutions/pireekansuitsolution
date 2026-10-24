@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pireekansu IT Solution | Professional Doorstep Tech & Home Services</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+        }
+        .pulse-glow {
+            animation: pulse-animation 2s infinite;
+        }
+        @keyframes pulse-animation {
+            0% { box-shadow: 0 0 0 0px rgba(16, 185, 129, 0.4); }
+            100% { box-shadow: 0 0 0 15px rgba(16, 185, 129, 0); }
+        }
+    </style>
+</head>
+<body class="text-slate-800 antialiased selection:bg-blue-600 selection:text-white pb-20 md:pb-0">
+
+    <!-- Top Info Bar -->
+    <div class="bg-slate-900 text-slate-300 text-xs sm:text-sm py-2 px-4">
+        <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+            <div class="flex items-center space-x-4">
+                <span class="flex items-center gap-1 text-emerald-400 font-medium">
+                    <i data-lucide="shield-check" class="w-4 h-4"></i> Certified Field Engineers
+                </span>
+                <span class="hidden md:inline-flex items-center gap-1">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-blue-400"></i> Faridabad, Delhi, Noida & Gurugram
+                </span>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="tel:09990919812" class="hover:text-white flex items-center gap-1 transition">
+                    <i data-lucide="phone" class="w-3.5 h-3.5 text-blue-400"></i> +91 99909 19812
+                </a>
+                <span class="text-slate-600">|</span>
+                <a href="mailto:pireekansu.itsolutions@gmail.com" class="hover:text-white hidden sm:flex items-center gap-1 transition">
+                    <i data-lucide="mail" class="w-3.5 h-3.5 text-blue-400"></i> pireekansu.itsolutions@gmail.com
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="bg-white/95 backdrop-blur-md sticky top-0 z-40 border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="#" class="flex items-center space-x-3 group">
+                <div class="w-10 h-10 sm:w-12 sm:h-12 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-md shadow-blue-500/20 group-hover:scale-105 transition">
+                    <i data-lucide="wrench" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <span class="text-lg sm:text-xl font-extrabold text-slate-900 tracking-tight block leading-none">Pireekansu IT</span>
+                    <span class="text-xs font-semibold text-blue-600 tracking-wider uppercase">Solution & Doorstep Services</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600">
+                <a href="#booking-section" class="hover:text-blue-600 transition">Book Service</a>
+                <a href="#services-section" class="hover:text-blue-600 transition">Our Services</a>
+                <a href="#how-it-works" class="hover:text-blue-600 transition">How It Works</a>
+                <a href="#coverage-section" class="hover:text-blue-600 transition">NCR Coverage</a>
+                <a href="#contact-section" class="hover:text-blue-600 transition">Contact</a>
+            </nav>
+
+            <!-- Action Call Button -->
+            <div class="flex items-center space-x-3">
+                <a href="tel:09990919812" class="bg-blue-50 hover:bg-blue-100 text-blue-700 font-semibold px-3 py-2 sm:px-4 sm:py-2.5 rounded-lg border border-blue-200 text-xs sm:text-sm flex items-center gap-2 transition">
+                    <i data-lucide="phone-call" class="w-4 h-4 text-blue-600"></i>
+                    <span class="hidden xs:inline">Call Now</span>
+                </a>
+                <a href="#booking-section" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-3 py-2 sm:px-4 sm:py-2.5 rounded-lg text-xs sm:text-sm flex items-center gap-2 shadow-md shadow-emerald-600/20 transition">
+                    <i data-lucide="calendar" class="w-4 h-4"></i>
+                    <span>Book Engineer</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero & Manual Area Booking Engine -->
+    <section id="booking-section" class="relative bg-slate-900 text-white py-12 lg:py-20 overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#3b82f6_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+                
+                <!-- Hero Left Copy -->
+                <div class="lg:col-span-5 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/10 border border-blue-400/20 text-blue-300 text-xs font-semibold uppercase tracking-wider">
+                        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> Doorstep Repairs in 30-60 Mins
+                    </div>
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
+                        Expert IT, Laptop, Electrical & Plumbing Services!
+                    </h1>
+                    <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                        Select your City, Area, Sector, Colony, or Village manually below along with your problem details to send an instant WhatsApp booking to our support team!
+                    </p>
+                    
+                    <!-- Stats Badges -->
+                    <div class="grid grid-cols-3 gap-4 pt-4 border-t border-slate-800">
+                        <div>
+                            <p class="text-xl sm:text-2xl font-bold text-emerald-400">100%</p>
+                            <p class="text-xs text-slate-400">Verified Pros</p>
+                        </div>
+                        <div>
+                            <p class="text-xl sm:text-2xl font-bold text-blue-400">30 Days</p>
+                            <p class="text-xs text-slate-400">Service Warranty</p>
+                        </div>
+                        <div>
+                            <p class="text-xl sm:text-2xl font-bold text-purple-400">Fast</p>
+                            <p class="text-xs text-slate-400">Doorstep Visit</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Right: Manual Location & Problem Booking Card -->
+                <div class="lg:col-span-7">
+                    <div class="bg-white text-slate-800 rounded-2xl shadow-2xl p-5 sm:p-8 border border-slate-100">
+                        <div class="flex items-center justify-between pb-4 mb-6 border-b border-slate-100">
+                            <div>
+                                <h2 class="text-lg sm:text-xl font-bold text-slate-900">Book Doorstep Service</h2>
+                                <p class="text-xs sm:text-sm text-slate-500">Select City, Area, Colony/Village & Specific Problem</p>
+                            </div>
+                            <span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-2.5 py-1 rounded-md flex items-center gap-1">
+                                <i data-lucide="zap" class="w-3.5 h-3.5 fill-emerald-600 text-emerald-600"></i> Fast Response
+                            </span>
+                        </div>
+
+                        <!-- Booking Form (Strictly Manual Selection) -->
+                        <form id="booking-form" onsubmit="event.preventDefault(); triggerWhatsAppBooking();" class="space-y-4">
+                            
+                            <!-- 1. City & Area Manual Selectors -->
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Step 1: Select City / District</label>
+                                    <select id="city-select" onchange="onCityChange()" required class="w-full px-3.5 py-2.5 text-sm bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-600 font-medium">
+                                        <option value="Faridabad">Faridabad</option>
+                                        <option value="Delhi">Delhi NCR</option>
+                                        <option value="Noida">Noida & Greater Noida</option>
+                                        <option value="Gurugram">Gurugram / Gurgaon</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Step 2: Select Area / Sector / Village</label>
+                                    <div class="relative">
+                                        <input type="text" id="area-input" required placeholder="Type or choose area / sector / village" autocomplete="off" class="w-full px-3.5 py-2.5 text-sm bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-600 font-medium">
+                                        <div id="area-suggestions" class="hidden absolute left-0 right-0 top-full mt-1 bg-white border border-slate-200 rounded-xl shadow-2xl z-50 max-h-52 overflow-y-auto"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Pincode & House Details -->
+                            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Pincode</label>
+                                    <input type="text" id="pincode-input" required placeholder="📮 e.g. 121006" pattern="[0-9]{6}" class="w-full px-3.5 py-2.5 text-sm bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-600">
+                                </div>
+                                <div class="sm:col-span-2">
+                                    <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">House / Street / Landmark</label>
+                                    <input type="text" id="customer-address" required placeholder="🏠 House No., Flat, Gali No., Landmark" class="w-full px-3.5 py-2.5 text-sm bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-600">
+                                </div>
+                            </div>
+
+                            <!-- 2. Dynamic Service Category Selection -->
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Step 3: Choose Service Category</label>
+                                <div class="grid grid-cols-2 sm:grid-cols-3 gap-2" id="category-grid">
+                                    <!-- Populated via JS -->
+                                </div>
+                            </div>
+
+                            <!-- 3. Dynamic Problem Dropdown -->
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Step 4: Select Specific Problem / Service</label>
+                                <select id="problem-select" required class="w-full px-3.5 py-2.5 text-sm bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-600 font-medium">
+                                    <option value="">-- Choose Category First --</option>
+                                </select>
+                            </div>
+
+                            <!-- Customer Name & Phone -->
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Your Full Name</label>
+                                    <input type="text" id="customer-name" required placeholder="👤 Enter full name" class="w-full px-3.5 py-2.5 text-sm bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-600">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Mobile / WhatsApp No.</label>
+                                    <input type="tel" id="customer-phone" required placeholder="📞 10-digit number" pattern="[0-9]{10}" class="w-full px-3.5 py-2.5 text-sm bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-600">
+                                </div>
+                            </div>
+
+                            <!-- Submit WhatsApp Button -->
+                            <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 px-6 rounded-xl shadow-lg shadow-emerald-600/30 flex items-center justify-center gap-2 text-sm sm:text-base transition pulse-glow">
+                                <i data-lucide="message-square" class="w-5 h-5 fill-current"></i>
+                                <span>🟢 Send Booking to WhatsApp</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us / Trust Badges -->
+    <section class="py-12 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div class="flex items-start space-x-4 p-4 rounded-xl bg-slate-50 border border-slate-100">
+                    <div class="p-3 bg-blue-100 text-blue-600 rounded-xl">
+                        <i data-lucide="user-check" class="w-6 h-6"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-slate-900 text-sm">Verified Field Pros</h3>
+                        <p class="text-xs text-slate-500 mt-1">Experienced and background-checked technicians.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start space-x-4 p-4 rounded-xl bg-slate-50 border border-slate-100">
+                    <div class="p-3 bg-emerald-100 text-emerald-600 rounded-xl">
+                        <i data-lucide="clock" class="w-6 h-6"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-slate-900 text-sm">30-60 Min Arrival</h3>
+                        <p class="text-xs text-slate-500 mt-1">Fast doorstep dispatch across all NCR areas.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start space-x-4 p-4 rounded-xl bg-slate-50 border border-slate-100">
+                    <div class="p-3 bg-amber-100 text-amber-600 rounded-xl">
+                        <i data-lucide="wrench" class="w-6 h-6"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-slate-900 text-sm">Quality Service</h3>
+                        <p class="text-xs text-slate-500 mt-1">Professional tools and genuine replacement parts.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start space-x-4 p-4 rounded-xl bg-slate-50 border border-slate-100">
+                    <div class="p-3 bg-purple-100 text-purple-600 rounded-xl">
+                        <i data-lucide="shield" class="w-6 h-6"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-slate-900 text-sm">30-Day Service Warranty</h3>
+                        <p class="text-xs text-slate-500 mt-1">Complete post-repair support & peace of mind.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Searchable Services Catalogue Section -->
+    <section id="services-section" class="py-16 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-10 space-y-3">
+                <span class="text-xs font-bold text-blue-600 tracking-wider uppercase bg-blue-50 px-3 py-1 rounded-full border border-blue-200">Our Offerings</span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900">Services Catalogue</h2>
+                <p class="text-slate-600 text-sm">Explore our wide range of technical and home maintenance solutions.</p>
+            </div>
+
+            <!-- Search & Filter Controls -->
+            <div class="bg-white p-4 rounded-2xl shadow-sm border border-slate-200 mb-8 max-w-4xl mx-auto">
+                <div class="flex flex-col md:flex-row gap-4 items-center justify-between">
+                    <!-- Search Input -->
+                    <div class="relative w-full md:w-1/2">
+                        <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3 top-3"></i>
+                        <input type="text" id="service-search" onkeyup="filterServices()" placeholder="Search service (e.g. SSD, Windows, Tap, MCB, Router)..." class="w-full pl-9 pr-4 py-2 text-sm bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-600">
+                    </div>
+
+                    <!-- Category Filter Buttons -->
+                    <div class="flex flex-wrap gap-1.5 w-full md:w-auto text-xs" id="service-category-filters">
+                        <button onclick="setServiceFilter('all')" class="service-filter-btn active bg-blue-600 text-white font-semibold px-3 py-1.5 rounded-lg">All</button>
+                        <button onclick="setServiceFilter('laptop')" class="service-filter-btn bg-slate-100 text-slate-600 font-semibold px-3 py-1.5 rounded-lg hover:bg-slate-200">Laptop/PC</button>
+                        <button onclick="setServiceFilter('networking')" class="service-filter-btn bg-slate-100 text-slate-600 font-semibold px-3 py-1.5 rounded-lg hover:bg-slate-200">Networking</button>
+                        <button onclick="setServiceFilter('software')" class="service-filter-btn bg-slate-100 text-slate-600 font-semibold px-3 py-1.5 rounded-lg hover:bg-slate-200">Software</button>
+                        <button onclick="setServiceFilter('electrical')" class="service-filter-btn bg-slate-100 text-slate-600 font-semibold px-3 py-1.5 rounded-lg hover:bg-slate-200">Electrical</button>
+                        <button onclick="setServiceFilter('plumbing')" class="service-filter-btn bg-slate-100 text-slate-600 font-semibold px-3 py-1.5 rounded-lg hover:bg-slate-200">Plumbing</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service Cards Grid -->
+            <div id="service-cards-container" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto">
+                <!-- Rendered dynamically via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="py-16 bg-white border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-xs font-bold text-emerald-600 tracking-wider uppercase bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">Easy 4-Step Booking</span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-2">How Pireekansu Works</h2>
+            </div>
+
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Step 1 -->
+                <div class="text-center space-y-3">
+                    <div class="w-14 h-14 bg-blue-50 text-blue-600 font-extrabold rounded-2xl flex items-center justify-center mx-auto text-xl border border-blue-200 shadow-sm">
+                        1
+                    </div>
+                    <h3 class="font-bold text-slate-900">Select City & Area</h3>
+                    <p class="text-xs text-slate-500 leading-relaxed">Choose your City, Sector, Village or Colony from the manual list.</p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="text-center space-y-3">
+                    <div class="w-14 h-14 bg-emerald-50 text-emerald-600 font-extrabold rounded-2xl flex items-center justify-center mx-auto text-xl border border-emerald-200 shadow-sm">
+                        2
+                    </div>
+                    <h3 class="font-bold text-slate-900">Choose Service Issue</h3>
+                    <p class="text-xs text-slate-500 leading-relaxed">Pick your exact issue and service details from dropdown list.</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="text-center space-y-3">
+                    <div class="w-14 h-14 bg-amber-50 text-amber-600 font-extrabold rounded-2xl flex items-center justify-center mx-auto text-xl border border-amber-200 shadow-sm">
+                        3
+                    </div>
+                    <h3 class="font-bold text-slate-900">Technician Visit</h3>
+                    <p class="text-xs text-slate-500 leading-relaxed">Assigned field expert arrives at your home/office in 30-60 mins.</p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="text-center space-y-3">
+                    <div class="w-14 h-14 bg-purple-50 text-purple-600 font-extrabold rounded-2xl flex items-center justify-center mx-auto text-xl border border-purple-200 shadow-sm">
+                        4
+                    </div>
+                    <h3 class="font-bold text-slate-900">Pay Post Service</h3>
+                    <p class="text-xs text-slate-500 leading-relaxed">Check completed work and pay comfortably via UPI or Cash.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coverage Area Section -->
+    <section id="coverage-section" class="py-16 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-10 space-y-2">
+                <span class="text-xs font-bold text-blue-400 uppercase tracking-widest">Active Regional Service Hubs</span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold">Full Delhi NCR Micro-Location Coverage</h2>
+                <p class="text-slate-400 text-sm">Every village, colony, sector & pincode covered by nearby technicians.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Faridabad Hub -->
+                <div class="bg-slate-800/80 p-5 rounded-2xl border border-slate-700/60">
+                    <div class="flex items-center space-x-3 mb-3">
+                        <div class="p-2 bg-blue-500/20 text-blue-400 rounded-lg">
+                            <i data-lucide="map-pin" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="font-bold text-white">Faridabad & Ballabhgarh</h3>
+                    </div>
+                    <p class="text-xs text-slate-300 mb-2">Sector 72, Neemka, Ballabhgarh, NIT 1-5, Sec 15, 21, 31, 37, 70, 75, Greater Faridabad.</p>
+                    <span class="text-[11px] font-mono text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded">Pincodes: 121001 - 121013</span>
+                </div>
+
+                <!-- Delhi Hub -->
+                <div class="bg-slate-800/80 p-5 rounded-2xl border border-slate-700/60">
+                    <div class="flex items-center space-x-3 mb-3">
+                        <div class="p-2 bg-emerald-500/20 text-emerald-400 rounded-lg">
+                            <i data-lucide="map-pin" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="font-bold text-white">All Delhi Zones</h3>
+                    </div>
+                    <p class="text-xs text-slate-300 mb-2">South Delhi, Saket, Dwarka, Rohini, Laxmi Nagar, Janakpuri, Connaught Place, Okhla.</p>
+                    <span class="text-[11px] font-mono text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded">Pincodes: 110001 - 110096</span>
+                </div>
+
+                <!-- Noida Hub -->
+                <div class="bg-slate-800/80 p-5 rounded-2xl border border-slate-700/60">
+                    <div class="flex items-center space-x-3 mb-3">
+                        <div class="p-2 bg-purple-500/20 text-purple-400 rounded-lg">
+                            <i data-lucide="map-pin" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="font-bold text-white">Noida & Gr. Noida</h3>
+                    </div>
+                    <p class="text-xs text-slate-300 mb-2">Sector 18, 62, 63, 137, Gaur City, Noida Extension, Pari Chowk, Knowledge Park.</p>
+                    <span class="text-[11px] font-mono text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded">Pincodes: 201301 - 201318</span>
+                </div>
+
+                <!-- Gurugram Hub -->
+                <div class="bg-slate-800/80 p-5 rounded-2xl border border-slate-700/60">
+                    <div class="flex items-center space-x-3 mb-3">
+                        <div class="p-2 bg-amber-500/20 text-amber-400 rounded-lg">
+                            <i data-lucide="map-pin" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="font-bold text-white">Gurugram / Gurgaon</h3>
+                    </div>
+                    <p class="text-xs text-slate-300 mb-2">DLF Phase 1-5, Cyber City, MG Road, Sohna Road, Golf Course Rd, Palam Vihar, Sec 14, 56.</p>
+                    <span class="text-[11px] font-mono text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded">Pincodes: 122001 - 122051</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials & Reviews -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-xs font-bold text-blue-600 uppercase tracking-widest">Customer Satisfaction</span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">What Local Residents Say</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Review 1 -->
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-4">
+                    <div class="flex text-amber-400 space-x-1">
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                    </div>
+                    <p class="text-xs text-slate-600 italic leading-relaxed">
+                        "Selected Neemka Village from the area list and booked SSD upgrade. Engineer arrived within 45 minutes and restored my laptop speed completely!"
+                    </p>
+                    <div class="pt-2 border-t border-slate-200 flex justify-between items-center text-xs">
+                        <span class="font-bold text-slate-900">Rohit Verma</span>
+                        <span class="text-slate-500">Sector 72, Neemka</span>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-4">
+                    <div class="flex text-amber-400 space-x-1">
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                    </div>
+                    <p class="text-xs text-slate-600 italic leading-relaxed">
+                        "Booked electrical short circuit check and tap leakage repair together. Simple manual area form and direct WhatsApp notification made it so smooth."
+                    </p>
+                    <div class="pt-2 border-t border-slate-200 flex justify-between items-center text-xs">
+                        <span class="font-bold text-slate-900">Pooja Nagar</span>
+                        <span class="text-slate-500">Ballabhgarh, Faridabad</span>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-4">
+                    <div class="flex text-amber-400 space-x-1">
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                    </div>
+                    <p class="text-xs text-slate-600 italic leading-relaxed">
+                        "Got our office CCTV cameras and WiFi setup done. Very skilled technicians and excellent service quality."
+                    </p>
+                    <div class="pt-2 border-t border-slate-200 flex justify-between items-center text-xs">
+                        <span class="font-bold text-slate-900">Amit Sharma</span>
+                        <span class="text-slate-500">Sector 62, Noida</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section class="py-16 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <h2 class="text-2xl font-extrabold text-slate-900">Frequently Asked Questions</h2>
+            </div>
+
+            <div class="space-y-3" id="faq-container">
+                <!-- FAQ Item 1 -->
+                <div class="bg-white rounded-xl border border-slate-200 overflow-hidden">
+                    <button onclick="toggleFaq(1)" class="w-full text-left p-4 font-semibold text-slate-900 text-sm flex justify-between items-center">
+                        <span>How do I select my village, colony or sector?</span>
+                        <i data-lucide="chevron-down" id="faq-icon-1" class="w-4 h-4 text-slate-500 transition-transform"></i>
+                    </button>
+                    <div id="faq-answer-1" class="hidden px-4 pb-4 text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-2">
+                        Select your City first, then type or choose your exact Sector, Village, or Colony name from the dropdown menu. Fill in your Pincode and House details, then click 'Send Booking to WhatsApp'.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-white rounded-xl border border-slate-200 overflow-hidden">
+                    <button onclick="toggleFaq(2)" class="w-full text-left p-4 font-semibold text-slate-900 text-sm flex justify-between items-center">
+                        <span>How quickly will the technician arrive?</span>
+                        <i data-lucide="chevron-down" id="faq-icon-2" class="w-4 h-4 text-slate-500 transition-transform"></i>
+                    </button>
+                    <div id="faq-answer-2" class="hidden px-4 pb-4 text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-2">
+                        Once you submit your booking details via WhatsApp, our team dispatches the nearest field engineer, who typically arrives at your location within 30 to 60 minutes.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="bg-white rounded-xl border border-slate-200 overflow-hidden">
+                    <button onclick="toggleFaq(3)" class="w-full text-left p-4 font-semibold text-slate-900 text-sm flex justify-between items-center">
+                        <span>What is the service warranty period?</span>
+                        <i data-lucide="chevron-down" id="faq-icon-3" class="w-4 h-4 text-slate-500 transition-transform"></i>
+                    </button>
+                    <div id="faq-answer-3" class="hidden px-4 pb-4 text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-2">
+                        All technical, computer, electrical, and plumbing repair services performed by Pireekansu IT Solution come with a full 30-day post-service warranty.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact-section" class="bg-slate-950 text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Col 1 -->
+                <div class="space-y-3">
+                    <div class="flex items-center space-x-2">
+                        <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white">
+                            <i data-lucide="wrench" class="w-5 h-5"></i>
+                        </div>
+                        <span class="text-lg font-bold text-white">Pireekansu IT</span>
+                    </div>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Doorstep Technical, Laptop Repair, Electrical & Plumbing Services across Faridabad, Delhi, Noida & Gurugram.
+                    </p>
+                    <p class="text-xs text-slate-500 font-medium">Founder: Sandeep Nagar</p>
+                </div>
+
+                <!-- Col 2 -->
+                <div>
+                    <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-3">Quick Navigation</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#booking-section" class="hover:text-white transition">Book Engineer</a></li>
+                        <li><a href="#services-section" class="hover:text-white transition">Services List</a></li>
+                        <li><a href="#how-it-works" class="hover:text-white transition">How It Works</a></li>
+                        <li><a href="#coverage-section" class="hover:text-white transition">Coverage Locations</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3 -->
+                <div>
+                    <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-3">Services</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li>Computer & Laptop Repair</li>
+                        <li>WiFi, Router & CCTV Setup</li>
+                        <li>Tally & ERP Accounting Setup</li>
+                        <li>Electrical Short Circuit Repair</li>
+                        <li>Plumbing & Tap Leakage Fix</li>
+                    </ul>
+                </div>
+
+                <!-- Col 4 -->
+                <div>
+                    <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-3">Head Office Contact</h4>
+                    <ul class="space-y-2.5 text-xs">
+                        <li class="flex items-start space-x-2">
+                            <i data-lucide="map-pin" class="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5"></i>
+                            <span>Unnamed Rd, Sector 72, Neemka, Haryana – 121006</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="phone" class="w-4 h-4 text-emerald-400 flex-shrink-0"></i>
+                            <a href="tel:09990919812" class="hover:text-white">+91 99909 19812</a>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="mail" class="w-4 h-4 text-purple-400 flex-shrink-0"></i>
+                            <a href="mailto:pireekansu.itsolutions@gmail.com" class="hover:text-white">pireekansu.itsolutions@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pt-6 border-t border-slate-800 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 gap-4">
+                <p>&copy; 2026 Pireekansu IT Solution. All rights reserved.</p>
+                <div class="flex space-x-4">
+                    <span>Terms of Service</span>
+                    <span>•</span>
+                    <span>Privacy Policy</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Fixed Floating Action Bar for Mobile -->
+    <div class="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-slate-200 p-3 z-50 flex items-center justify-between gap-3 md:hidden shadow-lg">
+        <a href="tel:09990919812" class="flex-1 bg-slate-900 hover:bg-slate-800 text-white font-semibold py-2.5 px-3 rounded-xl text-xs flex items-center justify-center gap-2">
+            <i data-lucide="phone" class="w-4 h-4 text-blue-400"></i>
+            <span>Call Engineer</span>
+        </a>
+        <a href="#booking-section" class="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-2.5 px-3 rounded-xl text-xs flex items-center justify-center gap-2">
+            <i data-lucide="message-square" class="w-4 h-4"></i>
+            <span>Book WhatsApp</span>
+        </a>
+    </div>
+
+    <!-- JavaScript Master Data & Search Logic -->
+    <script>
+        // Master Service Data (Rates Removed)
+        const serviceCategories = [
+            {
+                id: 'laptop',
+                title: '💻 Laptop & PC',
+                icon: 'laptop',
+                problems: [
+                    { title: 'Windows / Mac OS Installation & Driver Setup' },
+                    { title: 'General PC/Laptop Deep Cleaning & Thermal Paste Service' },
+                    { title: 'Antivirus, Firewall & Software Suite Setup' },
+                    { title: 'RAM & SSD Hardware Upgrade (Slow / Hang Fix)' },
+                    { title: 'Screen, Keyboard, Hinge & Battery Replacement' },
+                    { title: 'Data Recovery & Chip-Level Motherboard Repair' }
+                ]
+            },
+            {
+                id: 'networking',
+                title: '🌐 Networking & CCTV',
+                icon: 'wifi',
+                problems: [
+                    { title: 'Home & Office Wi-Fi Router Setup' },
+                    { title: 'LAN Cabling & Patch Panel Crimping' },
+                    { title: 'CCTV Camera Installation & DVR/NVR Setup' },
+                    { title: 'Biometric & Access Control System Fitting' },
+                    { title: 'Server Rack & Switch Setup' }
+                ]
+            },
+            {
+                id: 'software',
+                title: '🖥️ Software & ERP',
+                icon: 'code',
+                problems: [
+                    { title: 'Tally & ERP Accounting Software Setup' },
+                    { title: 'Printer & Scanner Driver Installation / Sharing' },
+                    { title: 'Corporate Email Setup (Google Workspace / M365)' },
+                    { title: 'Data Backup, Cloud Migration & System Recovery' }
+                ]
+            },
+            {
+                id: 'electrical',
+                title: '🔌 Electrical',
+                icon: 'zap',
+                problems: [
+                    { title: 'Switchboard, Socket & MCB Repair' },
+                    { title: 'Ceiling Fan, Exhaust & LED Light Fitting' },
+                    { title: 'Short Circuit & Complete Wiring Check' },
+                    { title: 'Inverter & Heavy Appliance Wiring Setup' }
+                ]
+            },
+            {
+                id: 'plumbing',
+                title: '🚰 Plumbing',
+                icon: 'droplet',
+                problems: [
+                    { title: 'Tap Repair & Mixer Fitting' },
+                    { title: 'Pipe Leakage Inspection & Repair' },
+                    { title: 'Kitchen Sink & Drainage Unclogging' },
+                    { title: 'Overhead Water Tank Cleaning & Fitting' }
+                ]
+            }
+        ];
+
+        // Comprehensive Micro-Location Database by City
+        const cityAreaDatabase = {
+            "Faridabad": [
+                { area: "Neemka Village", pin: "121006" },
+                { area: "Sector 72 (Unnamed Rd / Neemka Jail)", pin: "121006" },
+                { area: "Ballabhgarh Local / City", pin: "121004" },
+                { area: "Chawla Colony, Ballabhgarh", pin: "121004" },
+                { area: "Subhash Colony, Ballabhgarh", pin: "121004" },
+                { area: "Adarsh Nagar, Ballabhgarh", pin: "121004" },
+                { area: "NIT 1", pin: "121001" },
+                { area: "NIT 2", pin: "121001" },
+                { area: "NIT 3", pin: "121001" },
+                { area: "NIT 4", pin: "121001" },
+                { area: "NIT 5", pin: "121001" },
+                { area: "SGM Nagar", pin: "121001" },
+                { area: "Jawahar Colony", pin: "121005" },
+                { area: "Dabua Colony", pin: "121005" },
+                { area: "Sanjay Colony", pin: "121005" },
+                { area: "Sector 1", pin: "121004" },
+                { area: "Sector 2", pin: "121004" },
+                { area: "Sector 3", pin: "121004" },
+                { area: "Sector 7", pin: "121006" },
+                { area: "Sector 8", pin: "121006" },
+                { area: "Sector 9", pin: "121006" },
+                { area: "Sector 10", pin: "121006" },
+                { area: "Sector 11", pin: "121006" },
+                { area: "Sector 12", pin: "121007" },
+                { area: "Sector 14", pin: "121007" },
+                { area: "Sector 15 & 15A", pin: "121007" },
+                { area: "Sector 16 & 16A", pin: "121002" },
+                { area: "Sector 17", pin: "121002" },
+                { area: "Sector 19", pin: "121002" },
+                { area: "Sector 21A, 21B, 21C, 21D", pin: "121001" },
+                { area: "Sector 22 & 23", pin: "121005" },
+                { area: "Sector 28, 29, 30, 31", pin: "121003" },
+                { area: "Sector 37, Ashoka Enclave", pin: "121003" },
+                { area: "Greenfield Colony", pin: "121010" },
+                { area: "Charmwood Village / Surajkund", pin: "121009" },
+                { area: "Sector 70, 75, 76, 77, 78 (Greater Faridabad)", pin: "121002" },
+                { area: "Sector 80, 81, 82, 84, 85, 86, 87, 88, 89", pin: "121002" },
+                { area: "Mirzapur, Machgar, Sahupura", pin: "121004" },
+                { area: "Kheri Kalan & Kheri Khurd", pin: "121002" },
+                { area: "Tigaon & Chainsa", pin: "121101" }
+            ],
+            "Delhi": [
+                { area: "Saket", pin: "110017" },
+                { area: "Malviya Nagar & Hauz Khas", pin: "110017" },
+                { area: "Greater Kailash I & II", pin: "110048" },
+                { area: "Lajpat Nagar I, II, III, IV", pin: "110024" },
+                { area: "Kalkaji & Govindpuri", pin: "110019" },
+                { area: "Okhla Phase 1, 2, 3", pin: "110020" },
+                { area: "Sarita Vihar & Jasola", pin: "110076" },
+                { area: "Badarpur & Jaitpur", pin: "110044" },
+                { area: "Madanpur Khadar & Sangam Vihar", pin: "110062" },
+                { area: "Chhatarpur & Mehrauli", pin: "110074" },
+                { area: "Vasant Kunj & Vasant Vihar", pin: "110070" },
+                { area: "Dwarka Sector 1 to 23", pin: "110075" },
+                { area: "Uttam Nagar & Janakpuri", pin: "110059" },
+                { area: "Vikaspuri & Tilak Nagar", pin: "110018" },
+                { area: "Najafgarh & Palam", pin: "110043" },
+                { area: "Laxmi Nagar & Nirman Vihar", pin: "110092" },
+                { area: "Mayur Vihar Phase 1, 2, 3", pin: "110091" },
+                { area: "Preet Vihar & Patparganj", pin: "110092" },
+                { area: "Shahdara & Dilshad Garden", pin: "110032" },
+                { area: "Rohini Sector 1 to 25", pin: "110085" },
+                { area: "Pitampura & Shalimar Bagh", pin: "110034" },
+                { area: "Model Town & Mukherjee Nagar", pin: "110009" },
+                { area: "Karol Bagh & Patel Nagar", pin: "110005" },
+                { area: "Paschim Vihar & Punjabi Bagh", pin: "110063" },
+                { area: "Connaught Place & Central Delhi", pin: "110001" }
+            ],
+            "Noida": [
+                { area: "Sector 18 (Atta Market)", pin: "201301" },
+                { area: "Sector 62 (IT Hub)", pin: "201309" },
+                { area: "Sector 63", pin: "201301" },
+                { area: "Sector 50 & 51", pin: "201301" },
+                { area: "Sector 52 & 55", pin: "201301" },
+                { area: "Sector 70, 71, 74, 75, 76, 77, 78", pin: "201301" },
+                { area: "Sector 137 & 142", pin: "201305" },
+                { area: "Sector 150 & 128 (Wish Town)", pin: "201304" },
+                { area: "Mamura, Chhalera, Nithari", pin: "201301" },
+                { area: "Barola, Bhangel, Salarpur", pin: "201304" },
+                { area: "Gaur City 1 & 2 (Noida Extension)", pin: "201318" },
+                { area: "Cheri County & Techzone 4", pin: "201306" },
+                { area: "Pari Chowk, Greater Noida", pin: "201310" },
+                { area: "Knowledge Park 1, 2, 3, 4, 5", pin: "201310" },
+                { area: "Alpha 1 & 2, Beta 1 & 2, Gamma 1 & 2", pin: "201310" },
+                { area: "Delta 1 & 2, Surajpur", pin: "201306" }
+            ],
+            "Gurugram": [
+                { area: "DLF Phase 1, 2, 3, 4, 5", pin: "122002" },
+                { area: "Cyber City & Golf Course Road", pin: "122002" },
+                { area: "MG Road & Sushant Lok 1, 2, 3", pin: "122002" },
+                { area: "Sohna Road / Sector 48 & 49", pin: "122018" },
+                { area: "Sector 14 & 15", pin: "122001" },
+                { area: "Sector 21, 22, 23", pin: "122017" },
+                { area: "Sector 30, 31, 38, 40", pin: "122001" },
+                { area: "Sector 43, 45, 46, 47", pin: "122003" },
+                { area: "Sector 56 & 57", pin: "122011" },
+                { area: "Sector 82, 83, 84, 90 (New Gurgaon)", pin: "122004" },
+                { area: "Sector 102, 104, 110 (Dwarka Expressway)", pin: "122006" },
+                { area: "Palam Vihar", pin: "122017" },
+                { area: "Old Gurgaon / Sadar Bazar", pin: "122001" },
+                { area: "Manesar & Kherki Daula", pin: "122050" },
+                { area: "Badshahpur & Jharsa", pin: "122101" }
+            ]
+        };
+
+        let selectedCategory = 'laptop';
+        let currentServiceFilter = 'all';
+
+        // Page Initialization
+        window.onload = function() {
+            lucide.createIcons();
+            renderCategoryGrid();
+            populateProblemDropdown(selectedCategory);
+            renderServiceCards();
+            setupAreaAutocomplete();
+            onCityChange();
+        };
+
+        // Render Category Grid Buttons
+        function renderCategoryGrid() {
+            const container = document.getElementById('category-grid');
+            container.innerHTML = serviceCategories.map(cat => `
+                <button type="button" onclick="selectCategory('${cat.id}')" id="cat-btn-${cat.id}" 
+                        class="p-2.5 rounded-xl border text-xs font-semibold flex items-center gap-2 transition ${selectedCategory === cat.id ? 'bg-blue-600 text-white border-blue-600 shadow-sm' : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'}">
+                    <span>${cat.title}</span>
+                </button>
+            `).join('');
+        }
+
+        // Handle Category Select
+        function selectCategory(catId) {
+            selectedCategory = catId;
+            renderCategoryGrid();
+            populateProblemDropdown(catId);
+        }
+
+        // Populate Problem Dropdown
+        function populateProblemDropdown(catId) {
+            const dropdown = document.getElementById('problem-select');
+            const categoryObj = serviceCategories.find(c => c.id === catId);
+            
+            if (categoryObj) {
+                dropdown.innerHTML = '<option value="">-- Choose Specific Issue --</option>' + 
+                    categoryObj.problems.map(p => `
+                        <option value="${p.title}">${p.title}</option>
+                    `).join('');
+            }
+        }
+
+        // Handle City Change
+        function onCityChange() {
+            const city = document.getElementById('city-select').value;
+            const areaInput = document.getElementById('area-input');
+            const pincodeInput = document.getElementById('pincode-input');
+            
+            // Set default area & pin for selected city
+            const cityAreas = cityAreaDatabase[city];
+            if (cityAreas && cityAreas.length > 0) {
+                areaInput.value = cityAreas[0].area;
+                pincodeInput.value = cityAreas[0].pin;
+            }
+        }
+
+        // Setup Manual Area Search & Dropdown
+        function setupAreaAutocomplete() {
+            const input = document.getElementById('area-input');
+            const box = document.getElementById('area-suggestions');
+
+            input.addEventListener('focus', function() {
+                showAreaSuggestions(this.value);
+            });
+
+            input.addEventListener('input', function() {
+                showAreaSuggestions(this.value);
+            });
+
+            document.addEventListener('click', function(e) {
+                if (!input.contains(e.target) && !box.contains(e.target)) {
+                    box.classList.add('hidden');
+                }
+            });
+        }
+
+        function showAreaSuggestions(query) {
+            const city = document.getElementById('city-select').value;
+            const box = document.getElementById('area-suggestions');
+            const cityAreas = cityAreaDatabase[city] || [];
+
+            const val = query.toLowerCase().trim();
+            const matches = cityAreas.filter(item => item.area.toLowerCase().includes(val) || item.pin.includes(val));
+
+            if (matches.length > 0) {
+                box.innerHTML = matches.map(m => `
+                    <div onclick="selectAreaSuggestion('${m.area}', '${m.pin}')" class="px-3 py-2.5 text-xs text-slate-800 hover:bg-blue-50 cursor-pointer border-b border-slate-100 last:border-0 flex items-center justify-between">
+                        <span class="font-medium">📍 ${m.area}</span>
+                        <span class="text-[10px] font-mono bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded">${m.pin}</span>
+                    </div>
+                `).join('');
+                box.classList.remove('hidden');
+            } else {
+                box.classList.add('hidden');
+            }
+        }
+
+        function selectAreaSuggestion(areaName, pinCode) {
+            document.getElementById('area-input').value = areaName;
+            document.getElementById('pincode-input').value = pinCode;
+            document.getElementById('area-suggestions').classList.add('hidden');
+        }
+
+        // WhatsApp Direct Booking Generator
+        function triggerWhatsAppBooking() {
+            const city = document.getElementById('city-select').value;
+            const area = document.getElementById('area-input').value.trim();
+            const pincode = document.getElementById('pincode-input').value.trim();
+            const address = document.getElementById('customer-address').value.trim();
+            const name = document.getElementById('customer-name').value.trim();
+            const phone = document.getElementById('customer-phone').value.trim();
+            
+            const problemSelect = document.getElementById('problem-select');
+            const problemTitle = problemSelect.value;
+
+            const categoryObj = serviceCategories.find(c => c.id === selectedCategory);
+            const categoryName = categoryObj ? categoryObj.title : "Technical Service";
+
+            // Formatted WhatsApp Message Payload
+            const message = `📩 *NEW SERVICE BOOKING REQUEST — Pireekansu IT Solution*\n\n` +
+                `👤 *Customer Name:* ${name}\n` +
+                `📞 *Contact Number:* ${phone}\n\n` +
+                `🏙️ *City / District:* ${city}\n` +
+                `📍 *Area / Sector / Village:* ${area}\n` +
+                `📮 *Pincode:* ${pincode}\n` +
+                `🏠 *House / Address Details:* ${address}\n\n` +
+                `🔧 *Service Category:* ${categoryName}\n` +
+                `⚠️ *Selected Problem:* ${problemTitle}\n\n` +
+                `_Please assign the nearest field technician immediately._`;
+
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappUrl = `https://wa.me/919990919812?text=${encodedMessage}`;
+
+            // Redirect to WhatsApp
+            window.open(whatsappUrl, '_blank');
+        }
+
+        // Render Service Cards (Without Rates)
+        function renderServiceCards() {
+            const container = document.getElementById('service-cards-container');
+            let allCards = [];
+
+            serviceCategories.forEach(cat => {
+                cat.problems.forEach(prob => {
+                    allCards.push({
+                        catId: cat.id,
+                        catTitle: cat.title,
+                        title: prob.title
+                    });
+                });
+            });
+
+            const searchVal = document.getElementById('service-search').value.toLowerCase().trim();
+
+            const filteredCards = allCards.filter(card => {
+                const matchesCat = currentServiceFilter === 'all' || card.catId === currentServiceFilter;
+                const matchesSearch = card.title.toLowerCase().includes(searchVal) || card.catTitle.toLowerCase().includes(searchVal);
+                return matchesCat && matchesSearch;
+            });
+
+            if (filteredCards.length === 0) {
+                container.innerHTML = `<div class="col-span-full text-center py-8 text-xs text-slate-500">No matching service found. Call +91 99909 19812 for custom query.</div>`;
+                return;
+            }
+
+            container.innerHTML = filteredCards.map(card => `
+                <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex justify-between items-center space-x-3 hover:border-blue-300 transition">
+                    <div class="space-y-1">
+                        <span class="text-[10px] font-bold uppercase tracking-wider text-blue-600 bg-blue-50 px-2 py-0.5 rounded border border-blue-100">${card.catTitle}</span>
+                        <h4 class="font-bold text-slate-900 text-xs sm:text-sm leading-snug">${card.title}</h4>
+                    </div>
+                    <div class="text-right flex-shrink-0">
+                        <a href="#booking-section" class="text-xs font-semibold text-emerald-600 bg-emerald-50 hover:bg-emerald-100 px-3 py-1.5 rounded-lg border border-emerald-200 transition">Book Now</a>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function filterServices() {
+            renderServiceCards();
+        }
+
+        function setServiceFilter(catId) {
+            currentServiceFilter = catId;
+            document.querySelectorAll('.service-filter-btn').forEach(btn => {
+                btn.className = 'service-filter-btn bg-slate-100 text-slate-600 font-semibold px-3 py-1.5 rounded-lg hover:bg-slate-200 text-xs';
+            });
+            event.target.className = 'service-filter-btn active bg-blue-600 text-white font-semibold px-3 py-1.5 rounded-lg text-xs';
+            renderServiceCards();
+        }
+
+        // Accordion Toggle Logic
+        function toggleFaq(id) {
+            const answer = document.getElementById(`faq-answer-${id}`);
+            const icon = document.getElementById(`faq-icon-${id}`);
+
+            if (answer.classList.contains('hidden')) {
+                answer.classList.remove('hidden');
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                answer.classList.add('hidden');
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+    </script>
+</body>
+</html>
